@@ -80,7 +80,7 @@ reset_button.grid(row=2, column=2)
 
 # -----------------------------CHECK MARKS-------------------------------- #
 check_mark = Label()
-check_mark.config(text="✔", bg=YELLOW, fg=GREEN, font=(FONT_NAME, 16, "bold"))
+check_mark.config(bg=YELLOW, fg=GREEN, font=(FONT_NAME, 16, "bold"))
 check_mark.grid(row=3, column=1)
 
 window.mainloop()
