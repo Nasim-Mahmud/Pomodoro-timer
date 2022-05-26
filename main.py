@@ -65,6 +65,8 @@ label = Label()
 label.config(text="Timer", font=(FONT_NAME, 35, "bold"), bg=YELLOW, fg=GREEN)
 label.grid(row=0, column=1)
 
+
+# -----------------------------Buttons-------------------------------- #
 start_button = Button(text="Start", font=(FONT_NAME, 10, "bold"))
 start_button.config(width=5, height=1, command=start_timer)
 start_button.grid(row=2, column=0)
@@ -73,6 +75,8 @@ reset_button = Button(text="Reset", font=(FONT_NAME, 10, "bold"))
 reset_button.config(width=5, height=1)
 reset_button.grid(row=2, column=2)
 
+
+# -----------------------------Check marks-------------------------------- #
 check_mark = Label()
 check_mark.config(text="✔", bg=YELLOW, fg=GREEN, font=(FONT_NAME, 16, "bold"))
 check_mark.grid(row=3, column=1)
