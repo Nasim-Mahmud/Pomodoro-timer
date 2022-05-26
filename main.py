@@ -8,8 +8,8 @@ GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
 WORK_MIN = 1
-SHORT_BREAK_MIN = 5
-LONG_BREAK_MIN = 20
+SHORT_BREAK_MIN = 1
+LONG_BREAK_MIN = 1
 reps = 0
 
 
@@ -31,6 +31,7 @@ def start_timer():
         label.config(text="BREAK", font=(FONT_NAME, 35, "bold"), bg=YELLOW, fg=PINK)
         count_down(short_break_sec)
     else:
+        label.config(text="WORK", font=(FONT_NAME, 35, "bold"), bg=YELLOW, fg=GREEN)
         count_down(work_sec)
 
 
@@ -47,7 +48,7 @@ def count_down(count):
 
     canvas.itemconfig(timer, text=f"0{count_min}:{count_sec}")
     if count > 0:
-        window.after(1000, count_down, count - 1)
+        window.after(1000, count_down, count - 10)
     else:
         start_timer()
 
