@@ -30,7 +30,7 @@ canvas.create_text(100, 135, text="00:00", fill="white", font=(FONT_NAME, 25, "b
 canvas.grid(row=1, column=1)
 
 label = Label()
-label.config(text="Timer", font=(FONT_NAME, 30, "normal"), bg=YELLOW)
+label.config(text="Timer", font=(FONT_NAME, 30, "bold"), bg=YELLOW, fg=GREEN)
 label.grid(row=0, column=1)
 
 
