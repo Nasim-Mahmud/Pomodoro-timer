@@ -21,6 +21,8 @@ window = Tk()
 window.title("Pomodoro")
 window.config(padx=100, pady=50, bg=YELLOW)
 
+
+
 canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
 tomato_image = PhotoImage(file="tomato.png")
 canvas.create_image(100, 112, image=tomato_image)
