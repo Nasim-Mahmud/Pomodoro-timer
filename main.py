@@ -13,6 +13,7 @@ LONG_BREAK_MIN = 1
 reps = 0
 timer = None
 
+
 # ---------------------------- TIMER RESET ------------------------------- #
 
 def reset_timer():
@@ -46,7 +47,6 @@ def start_timer():
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
 def count_down(count):
-
     count_min = math.floor(count / 60)
     count_sec = count % 60
 
@@ -63,7 +63,7 @@ def count_down(count):
     else:
         start_timer()
         marks = ""
-        work_sessions = math.floor(reps/2)
+        work_sessions = math.floor(reps / 2)
         for _ in range(work_sessions):
             marks += "✔"
         check_mark.config(text=marks)
