@@ -7,9 +7,9 @@ RED = "#e7305b"
 GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
-WORK_MIN = 25
-SHORT_BREAK_MIN = 5
-LONG_BREAK_MIN = 20
+WORK_MIN = 1
+SHORT_BREAK_MIN = 1
+LONG_BREAK_MIN = 1
 reps = 0
 
 
@@ -37,6 +37,7 @@ def start_timer():
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
 def count_down(count):
+
     count_min = math.floor(count / 60)
     count_sec = count % 60
 
@@ -51,6 +52,11 @@ def count_down(count):
         window.after(1000, count_down, count - 10)
     else:
         start_timer()
+        marks = ""
+        work_sessions = math.floor(reps/2)
+        for _ in range(work_sessions):
+            marks += "✔"
+        check_mark.config(text=marks)
 
 
 # ---------------------------- UI SETUP ------------------------------- #
