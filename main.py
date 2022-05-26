@@ -23,11 +23,6 @@ def start_timer():
 def count_down(count):
     count_min = math.floor(count / 60)
     count_sec = count % 60
-    # Dynamic typing for minutes
-    if count_min == 5:
-        count_sec = "05"
-    elif count_min < 1:
-        count_min = f"0{count_min}"
 
     # Dynamic typing for seconds
     if count_sec == 0:
