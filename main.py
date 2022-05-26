@@ -17,7 +17,7 @@ LONG_BREAK_MIN = 20
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
 def count_down(count):
-    canvas.itemconfig(timer, text=count)
+
     if count > 0:
         window.after(1000, count_down, count - 1)
 
