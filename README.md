@@ -6,4 +6,4 @@ By following these instructions, I have made a Pomodoro timer. This was develope
 </p>
 <img align= "middle" src=https://user-images.githubusercontent.com/57942968/170537323-425db6be-fada-40e5-99fd-b567b868f8f2.png>
 
-<h3 align="center">Happy Coding! timer</h3>
+<h3 align="center">Happy Coding!</h3>
