@@ -19,6 +19,9 @@ def start_timer():
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
 def count_down(count):
+
+    count_min = SHORT_BREAK_MIN / 60
+    count_sec = SHORT_BREAK_MIN % 60
     canvas.itemconfig(timer, text=count)
     if count > 0:
         window.after(1000, count_down, count - 1)
