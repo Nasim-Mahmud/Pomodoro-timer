@@ -42,7 +42,8 @@ reset_button.config(width=5, height=1)
 reset_button.grid(row=2, column=2)
 
 check_mark = Label()
-check_mark.config(text=" ")
+check_mark.config(text="✔", fg=GREEN)
+check_mark.grid(row=3, column=1)
 
 
 
