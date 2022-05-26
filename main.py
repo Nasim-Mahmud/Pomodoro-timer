@@ -1,6 +1,5 @@
 from tkinter import *
 
-
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
 RED = "#e7305b"
@@ -22,7 +21,6 @@ window = Tk()
 window.title("Pomodoro")
 window.config(padx=100, pady=50, bg=YELLOW)
 
-
 canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
 tomato_image = PhotoImage(file="tomato.png")
 canvas.create_image(100, 112, image=tomato_image)
@@ -42,10 +40,7 @@ reset_button.config(width=5, height=1)
 reset_button.grid(row=2, column=2)
 
 check_mark = Label()
-check_mark.config(text="✔",bg=YELLOW, fg=GREEN, font=(FONT_NAME, 16, "bold"))
+check_mark.config(text="✔", bg=YELLOW, fg=GREEN, font=(FONT_NAME, 16, "bold"))
 check_mark.grid(row=3, column=1)
-
-
-
 
 window.mainloop()
