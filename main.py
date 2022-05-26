@@ -25,7 +25,8 @@ def count_down(count):
     count_sec = count % 60
     if count_sec ==0:
         count_sec = "00"
-
+    elif count_sec < 10:
+        canvas.itemconfig(timer, text=f"{count_min}:0{count_sec}")
     canvas.itemconfig(timer, text=f"{count_min}:{count_sec}")
     if count > 0:
         window.after(1000, count_down, count - 1)
