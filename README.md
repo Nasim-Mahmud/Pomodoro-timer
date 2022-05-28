@@ -31,4 +31,8 @@ When the installation is completed, type the following command.
 "**-i**" command is used for adding icon to the exe file. The icon needs to be in .ico format, otherwise the command line won't work and will show errors.
 </li>
 
+<li>
+Multiple files and folder will be created in this process, but we need to keep an eye on the <b>dist</b> folder, inside the folder, we will find out .exe file. But it won't work right away. To make it work, we need to copy that .exe file and paste it in the same directory where the python scripts are located. After that, the .exe file will be ready to use.
+</li>
+
 <h3 align="center">Happy Coding!</h3>
