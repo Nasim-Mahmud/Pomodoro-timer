@@ -14,5 +14,11 @@ Now we can use the **Pomodoro Timer** as an executable file. To make it an **.ex
 <li>
   First, go to the directory where the python scripts are located. Then on the directory bar, click and type <b>cmd
 </li>
+<li>
+	Then when the command prompt pops up, install <b>pyinstaller using the following command.
+  
+		pip pyinstaller
+
+</li>
 
 <h3 align="center">Happy Coding!</h3>
