@@ -9,7 +9,7 @@ By following these instructions, I have made a Pomodoro timer. This was develope
 
 ## Updated
 
-Now we can use the **Pomodoro Timer** as an executable file. To make it an **.exe** file, just follow the following steps:
+Now we can use the Pomodoro Timer as an executable file. To make it a .exe file, follow the following steps:
 
 <li>
 First, go to the directory where the python scripts are located. Then on the directory bar, click and type <b>cmd</b>
@@ -27,16 +27,16 @@ When the installation is completed, type the following command.
 
 	pyinstaller --onefile -w -i ICON_NAME.ico SCRIPT_NAME.py
 	
-"**-w**" command prevents from opening additional **cmd** window while executing the .exe file
-"**-i**" command is used for adding icon to the exe file. The icon needs to be in .ico format, otherwise the command line won't work and will show errors.
+"**-w**" command prevents opening an additional cmd window while executing the .exe file.
+"**-i**" command is used to adding an icon to the exe file. The icon needs to be in .ico format. Otherwise, the command line won't work and will show errors.
 </li>
 
 <li>
-Multiple files and folder will be created in this process, but we need to keep an eye on the <b>dist</b> folder, inside the folder, we will find out .exe file. But it won't work right away. To make it work, we need to copy that .exe file and paste it in the same directory where the python scripts are located. After that, the .exe file will be ready to use.
+Multiple files and folders will be created in this process, but we need to keep an eye on the <b>dist</b> folder. Inside the folder, we will find out .exe file. But it won't work right away. We need to copy that .exe file and paste it in the same directory where the python scripts are located to make it work. After that, the .exe file will be ready to use.
 </li>
 
 <li>
-If the icon not showing on the .exe file, just rename it that doesn't matches the python main script file. That might solve the issue.
+If the icon is not showing on the .exe file, rename it that doesn't match the python main script file. That might solve the issue.
 </li>
 
 <h3 align="center">Happy Coding!</h3>
