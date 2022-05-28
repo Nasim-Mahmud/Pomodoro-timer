@@ -35,4 +35,8 @@ When the installation is completed, type the following command.
 Multiple files and folder will be created in this process, but we need to keep an eye on the <b>dist</b> folder, inside the folder, we will find out .exe file. But it won't work right away. To make it work, we need to copy that .exe file and paste it in the same directory where the python scripts are located. After that, the .exe file will be ready to use.
 </li>
 
+<li>
+If the icon not showing on the .exe file, just rename it that doesn't matches the python main script file. That might solve the issue.
+</li>
+
 <h3 align="center">Happy Coding!</h3>
