@@ -21,11 +21,14 @@ Then when the command prompt pops up, install <b>pyinstaller</b> using the follo
 	pip pyinstaller
 
 </li>
+
+<li>
 When the installation is completed, type the following command.
 
 	pyinstaller --onefile -w -i ICON_NAME.ico SCRIPT_NAME.py
-<li>
-
+	
+"**-w**" command prevents from opening additional **cmd** window while executing the .exe file
+"**-i**" command is used for adding icon to the exe file. The icon needs to be in .ico format, otherwise the command line won't work and will show errors.
 </li>
 
 <h3 align="center">Happy Coding!</h3>
