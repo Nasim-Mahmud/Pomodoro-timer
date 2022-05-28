@@ -6,4 +6,13 @@ By following these instructions, I have made a Pomodoro timer. This was develope
 </p>
 <img align= "middle" src=https://user-images.githubusercontent.com/57942968/170537323-425db6be-fada-40e5-99fd-b567b868f8f2.png>
 
+
+## Updated
+
+Now we can use the **Pomodoro Timer** as an executable file. To make it an **.exe** file, just follow the following steps:
+
+<li>
+  First, go to the directory where the python scripts are located. Then on the directory bar, click and type <b>cmd
+</li>
+
 <h3 align="center">Happy Coding!</h3>
