@@ -12,12 +12,19 @@ By following these instructions, I have made a Pomodoro timer. This was develope
 Now we can use the **Pomodoro Timer** as an executable file. To make it an **.exe** file, just follow the following steps:
 
 <li>
-  First, go to the directory where the python scripts are located. Then on the directory bar, click and type <b>cmd
+First, go to the directory where the python scripts are located. Then on the directory bar, click and type <b>cmd</b>
 </li>
+	
 <li>
-	Then when the command prompt pops up, install <b>pyinstaller using the following command.
+Then when the command prompt pops up, install <b>pyinstaller</b> using the following command.
   
-		pip pyinstaller
+	pip pyinstaller
+
+</li>
+When the installation is completed, type the following command.
+
+	pyinstaller --onefile -w -i ICON_NAME.ico SCRIPT_NAME.py
+<li>
 
 </li>
 
